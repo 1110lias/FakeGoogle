@@ -1,0 +1,204 @@
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(252, 210, 210);
+}
+
+.barnav {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    /* background-color: rgb(248, 190, 190) */
+}
+
+.butcon {
+    color: white;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    width: 80px;
+    height: 32px;
+}
+
+.butcon:hover {
+    color: white;
+    background-color: #154d96;
+    border-radius: 5px;
+    border-color: #154d96;
+    width: 80px;
+    height: 32px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 253px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 530;
+    /* background-color: rgb(226, 226, 102); */
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    padding: 6px;
+    border-radius: 18px;
+    font-size: 24px;
+    /* Preferred icon size */
+    line-height: 1;
+    color: rgb(77, 77, 77);
+}
+
+.material-symbols-outlined:hover {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    padding: 6px;
+    border-radius: 18px;
+    font-size: 24px;
+    /* Preferred icon size */
+    line-height: 1;
+    /* background-color: rgb(223, 223, 223); */
+    text-decoration: none;
+}
+
+.logblk {
+    height: 28vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    /* background-color: #aeb6c2; */
+}
+
+.logoogle {
+    /* display:block; */
+    max-width: 253px;
+    width: 70%;
+    min-width: none;
+}
+
+.srhblk {
+    height: 6.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.ovlblk {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    width: 420px;
+    min-width: none;
+    height: 60%;
+    border-radius: 30px;
+    /* background-color: rgb(231, 247, 95); */
+    display: flex;
+    min-height: 35px;
+}
+
+.ovlblk:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    width: 420px;
+    min-width: none;
+    height: 60%;
+    border-radius: 30px;
+    /* background-color: rgb(231, 247, 95); */
+    display: flex;
+    min-height: 35px;
+    box-shadow: 1px 1px 1px 1px rgb(145, 145, 145);
+}
+
+#srhbar {
+    display: flex;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    border-style: none;
+    /* background-color: rgb(105, 79, 255); */
+}
+
+.btnblk {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 10px;
+
+}
+
+.separator {
+    width: 12px;
+}
+
+.srcbtn {
+    height: 30px;
+    width: 130px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-radius: 5px;
+}
+
+.srcbtn:hover {
+    height: 30px;
+    width: 130px;
+    border-width: 1px;
+    border-color: lightgrey;
+    box-shadow: 6px 3px 3px rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #e2e2e2;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 14px;
+    color: #161616;
+}
+
+.flvl01 {
+    min-height: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.flvl02 {
+    min-height: 50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flvl03 {
+    min-height: 50;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
